@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QualXP - La qualité par l'expérience</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50">
+    <qualxp-header></qualxp-header>
+    
+    <main class="container mx-auto px-4 py-8">
+        <!-- Hero Section -->
+        <section class="text-center mb-12">
+            <h1 class="text-5xl font-bold text-blue-800 mb-4">QualXP</h1>
+            <p class="text-xl text-gray-600 mb-8">La qualité par l'expérience, par Morgan GERMA</p>
+            <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="max-w-2xl mx-auto mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-8">
+                <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Informations de contact</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Email -->
+                    <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                    <i data-feather="mail" class="text-blue-600"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Email</p>
+                    <a href="mailto:morgangerma@hotmail.fr" class="text-blue-700 hover:text-blue-800 font-medium">morgangerma@hotmail.fr</a>
+                </div>
+            </div>
+            
+            <!-- Phone -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                    <i data-feather="phone" class="text-green-600"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Téléphone</p>
+                    <a href="tel:+33787296964" class="text-green-700 hover:text-green-800 font-medium">07 87 29 69 64</a>
+                </div>
+            </div>
+            
+            <!-- Address -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+                    <i data-feather="map-pin" class="text-purple-600"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Adresse</p>
+                    <p class="text-purple-700 font-medium">Valence (26)</p>
+                </div>
+            </div>
+            
+            <!-- YouTube -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+                    <i data-feather="youtube" class="text-red-600"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">YouTube</p>
+                    <a href="https://www.youtube.com/@qualxp" class="text-red-700 hover:text-red-800 font-medium">Ma chaîne YouTube</a>
+                </div>
+            </div>
+            
+            <!-- Book -->
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+                    <i data-feather="book" class="text-orange-600"></i>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Mon livre</p>
+                    <a href="monsite-1763627995/Livre Morgan Germa.pdf" class="text-orange-700 hover:text-orange-800 font-medium">Télécharger mon livre</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            <!-- Category 1 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="check-circle" class="text-blue-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Contrôle à réception/libératoire</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Echantionnage.xlsx" class="block p-3 rounded-lg hover:bg-blue-50 transition-colors duration-200 text-gray-700 hover:text-blue-700">
+                            Echantillonnage
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="bar-chart-2" class="text-green-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Plan d'expérience</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Plackett%20Burman.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Plackett Burman
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Carr%C3%A9eLatin.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Carré latin
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Carr%C3%A9eGrecoLatin.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Carré greco latin
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Bloc%20partiellement%20emboit%C3%A9.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Blocs partiellement emboité
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Blocs%20Incomplets%20Equilibr%C3%A9s.xls.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Blocs incomplet équilibré
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Blocs%20Complets%20Equilibr%C3%A9s.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Blocs complets équlibrés
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Rugosit%C3%A9.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Rugosité
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Simplexe.xlsx" class="block p-3 rounded-lg hover:bg-green-50 transition-colors duration-200 text-gray-700 hover:text-green-700">
+                            Simplexe
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="activity" class="text-purple-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Validation de méthodes</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/R%C3%A9gressions.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Etude de linéarité
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Profil%20d'exactitude%20.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Profil d'exactitude
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Profil%20exactitude%202.0.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Profil d'exactitude 2.0
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/VALIDATION%20D'UNE%20METHODE%20DE%20DOSAGE%20INDIRECTE%20D'UN%20ANALYTE%20DANS%20UNE%20FORME%20PHARMACEUTIQUE%20.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            ICHQ2
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Validation%20chimie%20des%20eaux.xls" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Chimie des eaux
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/LaboratoireBiologieM%C3%A9dical.xls" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Laboratoire de biologie médical
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Validation%20analytique%20bayesienne.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Validation Bayésienne
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Lin%C3%A9arit%C3%A9%20tridimensionnelle.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Linéarité de machine 3D
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Gage%20R%26R%20attribut.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Gage R&R attribut
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Gage%20R%26R%20crossed.xlsx" class="block p-3 rounded-lg hover:bg-purple-50 transition-colors duration-200 text-gray-700 hover:text-purple-700">
+                            Gage R&R variable
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="tool" class="text-orange-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Métrologie</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/v%C3%A9rif%20pipette.xlsx" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Vérification pipette
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/v%C3%A9rif%20Balance.xls" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Vérification balance
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/v%C3%A9rif%20T%C2%B0C.xls" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Vérification sonde
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Fiabilit%C3%A9-Weibull.xlsx" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Fiabilité
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Calcul%20EMT%20balance.xlsx" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Calcul de EMT
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/OPPERET.xlsx" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            OPPERET
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Suivi%20m%C3%A9trologie.xlsx" class="block p-3 rounded-lg hover:bg-orange-50 transition-colors duration-200 text-gray-700 hover:text-orange-700">
+                            Suivi métrologie
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 5 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="trending-up" class="text-red-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Cartes de contrôle</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Cartes%20de%20contr%C3%B4le%20attributs.xlsx" class="block p-3 rounded-lg hover:bg-red-50 transition-colors duration-200 text-gray-700 hover:text-red-700">
+                            Par attribut
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Cartes%20de%20contr%C3%B4le%20mesures.xlsx" class="block p-3 rounded-lg hover:bg-red-50 transition-colors duration-200 text-gray-700 hover:text-red-700">
+                            Par mesure
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Cartes%20bayesienne.xlsx" class="block p-3 rounded-lg hover:bg-red-50 transition-colors duration-200 text-gray-700 hover:text-red-700">
+                            Bayésienne
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Category 6 -->
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                <div class="p-6">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mr-4">
+                            <i data-feather="clipboard" class="text-indigo-600"></i>
+                        </div>
+                        <h2 class="text-xl font-semibold text-gray-800">Test divers</h2>
+                    </div>
+                    <div class="space-y-2">
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Puissance%20de%20test.xlsx" class="block p-3 rounded-lg hover:bg-indigo-50 transition-colors duration-200 text-gray-700 hover:text-indigo-700">
+                            Puissance de test
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/1-Mutli%20fichiers.xlsx" class="block p-3 rounded-lg hover:bg-indigo-50 transition-colors duration-200 text-gray-700 hover:text-indigo-700">
+                            Fichier multi-tests
+                        </a>
+                        <a href="https://github.com/germamorgan-cpu/QualXP/raw/main/Correlation%20multiple.xlsx" class="block p-3 rounded-lg hover:bg-indigo-50 transition-colors duration-200 text-gray-700 hover:text-indigo-700">
+                            Corrélation multiple
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <qualxp-footer></qualxp-footer>
+
+    <!-- Components -->
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
